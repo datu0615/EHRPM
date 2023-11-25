@@ -12,7 +12,10 @@ This module improves the detailing of features, enabling better detection of sma
 
 **Designing a Lightweight Network**: We have developed lightweight modules capable of efficiently processing high-resolution images with minimal increase in computational complexity. Our approach facilitates effective object detection while reducing the demand on computational resources.
 
-**Comparative Evaluation with Leading Networks**: We have compared our method with other top-tier networks, including baseline models. Our experimental results show that our approach achieves similar or better performance with a lower number of parameters and reduced computational requirements.
+**Comparative Evaluation with Leading Networks**: We have compared our method with other top-tier networks, including baseline models. Our experimental results show that our approach achieves similar or better performance with a lower number of parameters and reduced computational requirements.  
+
+![alt text](/assets/over_arch.png)
+
 
 ## Requirements
 - Pytorch 1.11.1
