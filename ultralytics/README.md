@@ -3,3 +3,15 @@
 We hope that the resources here will help you get the most out of YOLOv8. Please browse the YOLOv8 <a href="https://docs.ultralytics.com/">Docs</a> for details, raise an issue on <a href="https://github.com/ultralytics/ultralytics/issues/new/choose">GitHub</a> for support, and join our <a href="https://ultralytics.com/discord">Discord</a> community for questions and discussions!
 
 To request an Enterprise License please complete the form at [Ultralytics Licensing](https://ultralytics.com/license).
+
+## Train (yolov8)
+
+```bash
+from ultralytics import YOLO
+
+# Load a model
+model = YOLO('newyolov8s.yaml')  # build a new model from YAML
+
+# Train the model
+results = model.train(data='VisDrone.yaml', epochs=100, imgsz=1280)
+```
