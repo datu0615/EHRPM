@@ -1,18 +1,12 @@
 # Enhanced Detection of Small Objects in Aerial Imagery: A High-Resolution Neural Network Approach with Amplified Feature Pyramid and Sigmoid Re-weighting
 
 ## Overview
-In this paper, we address the aforementioned challenges in drone-captured image object detection. Our main contributions are summarized as follows:
-
-**Overcoming Resolution Constraints**: We introduce the Enhanced High-Resolution Processing Module (EHRPM), which effectively processes high-resolution images without changing the input size for the primary network.
-This module improves the detailing of features, enabling better detection of small objects and subtle nuances compared to previous methods that relied on low-resolution inputs.
-
-**Mitigating Information Loss in Small Objects**: We propose the Small Object Feature Amplified Feature Pyramid Network (SOFA-FPN), incorporating the Edge Enhancement Module (EEM), the Cross Lateral Connection Module (CLCM), and the Dual Bottom-up Convolution Module (DBCM). This approach focuses on enhancing the edges of objects to combat the loss of information in small entities, highlighting the importance of edge information in detecting smaller objects.
-
-**Introducing a Simple Feature Re-weighting Module (SRM)**: The SRM is designed to emphasize critical information in the feature maps at each scale before they proceed through the prediction head. This self-attention mechanism allows the network to concentrate on the most relevant features, thereby enhancing detection accuracy.
-
-**Designing a Lightweight Network**: We have developed lightweight modules capable of efficiently processing high-resolution images with minimal increase in computational complexity. Our approach facilitates effective object detection while reducing the demand on computational resources.
-
-**Comparative Evaluation with Leading Networks**: We have compared our method with other top-tier networks, including baseline models. Our experimental results show that our approach achieves similar or better performance with a lower number of parameters and reduced computational requirements.  
+Detecting small objects within drone-captured imagery presents a significant challenge in computer vision, primarily due to their sparse pixel representation.
+The difficulty stems from the need to precisely identify subtle features from an aerial perspective.
+As small object details diminish through the layers of deep learning models, the necessity for high-resolution input to ensure effective detection becomes evident.
+In response, our research develops a specialized neural network architecture optimized for high-resolution imagery to detect small objects.
+This architecture consists of three core components: i)~Enhanced High-Resolution Processing Module (EHRPM) that enhances the processing of high-resolution data, ensuring accurate analysis of intricate details; ii)~Small Object Feature Amplified Feature Pyramid Network (SOFA-FPN) that amplifies the features of small objects, allowing for their precise detection with augmented supplementary modules including: Edge Enhancement Module (EEM), Cross Lateral Connection Module (CLCM), and Dual Bottom-up Convolution Module (DBCM); and iii)~the Sigmoid Re-weighting Module (SRM) that precisely modulates the significance of features, ensuring that the network focuses on the most relevant information.
+Our network outperforms numerous advanced models in detection precision while also achieving a reduction in both parameter complexity and computational requirements. This achievement marks a significant advancement in the fields of aerial surveillance and remote sensing. 
 
 ![alt text](/assets/over_arch.png)
 
