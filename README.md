@@ -1,4 +1,5 @@
-# Enhanced Detection of Small Objects in Aerial Imagery: A High-Resolution Neural Network Approach with Amplified Feature Pyramid and Sigmoid Re-weighting
+# Enhanced Detection of Small Objects in Aerial Imagery:  
+A High-Resolution Neural Network Approach with Amplified Feature Pyramid and Sigmoid Re-weighting
 
 ## Overview
 Detecting small objects within drone-captured imagery presents a significant challenge in computer vision, primarily due to their sparse pixel representation.
