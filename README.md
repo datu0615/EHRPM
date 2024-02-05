@@ -76,4 +76,4 @@ python tools/train.py -f /path/to/your/Exp/file -d 8 -b 64 --fp16 -o
 ![alt text](/assets/aitod.png)  
 
 ## Acknowlegment
-The code is heaavily borrowed from [YOLOX](https://github.com/Megvii-BaseDetection/YOLOX) and [YOLOv8](https://github.com/ultralytics/ultralytics). Thanks for their contribution.
+The code is heavily borrowed from [YOLOX](https://github.com/Megvii-BaseDetection/YOLOX) and [YOLOv8](https://github.com/ultralytics/ultralytics). Thanks for their contribution.
