@@ -74,3 +74,6 @@ python tools/train.py -f /path/to/your/Exp/file -d 8 -b 64 --fp16 -o
 ![alt text](/assets/vd_uavdt2.png)  
 ### AI-TOD  
 ![alt text](/assets/aitod.png)  
+
+## Acknowlegment
+The code is heaavily borrowed from [YOLOX]([http://www.naver.com/](https://github.com/Megvii-BaseDetection/YOLOX)https://github.com/Megvii-BaseDetection/YOLOX) and [YOLOv8](https://github.com/ultralytics/ultralytics). Thanks for their contribution.
