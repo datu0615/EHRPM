@@ -8,7 +8,7 @@ In response, our research develops a specialized neural network architecture opt
 This architecture consists of three core components: i)~Enhanced High-Resolution Processing Module (EHRPM) that enhances the processing of high-resolution data, ensuring accurate analysis of intricate details; ii)~Small Object Feature Amplified Feature Pyramid Network (SOFA-FPN) that amplifies the features of small objects, allowing for their precise detection with augmented supplementary modules including: Edge Enhancement Module (EEM), Cross Lateral Connection Module (CLCM), and Dual Bottom-up Convolution Module (DBCM); and iii)~the Sigmoid Re-weighting Module (SRM) that precisely modulates the significance of features, ensuring that the network focuses on the most relevant information.
 Our network outperforms numerous advanced models in detection precision while also achieving a reduction in both parameter complexity and computational requirements. This achievement marks a significant advancement in the fields of aerial surveillance and remote sensing. 
 
-![alt text](/assets/over_arch.png)
+![alt text](/assets/over_arch_sod.png)
 
 
 ## Requirements
